@@ -42,5 +42,22 @@ describe '/listings/search' do
   end
 
 
+  it "Request all rental listings between $500 and $1500 rental price"  do
+    url =  SERVICE_URL+common_part+"&price_max=1500&price_min=500"
+    resp = HTTParty.get(url)
+    resp["returned_rows"].should >0
+    resp["listings"].each do |listing|
+      if !listing["community"].nil?
+        listing["community"]["price_min"].should >= 500
+        listing["community"]["price_max"].should <= 1500
+      else
+        listing["price"].should >= 500
+        listing["price"].should <= 1500
+      end
+    end
+
+  end
+
+
 
 end
