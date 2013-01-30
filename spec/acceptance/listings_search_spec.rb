@@ -85,6 +85,16 @@ describe '/listings/search' do
 
   end
 
+  it "Request all listings with a listed date not older than 14 days"  do
+    date_check_point = (Time.now-1209600).to_s.to_iso_8601
 
+    url =  SERVICE_URL+common_part+"&listed_date_min=#{date_check_point}"
+    resp = HTTParty.get(url)
+    resp["returned_rows"].should >0
+    resp["listings"].each do |listing|
+      listing["list_date"].should >= date_check_point
+    end
+
+  end
 
 end

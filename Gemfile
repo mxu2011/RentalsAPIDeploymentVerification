@@ -39,3 +39,4 @@ gem 'jquery-rails'
 
 gem 'rspec-rails'
 gem 'httparty'
+gem 'chronic'
