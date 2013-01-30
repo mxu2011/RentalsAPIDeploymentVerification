@@ -23,3 +23,15 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+qa:
+  adapter: sqlite3
+  database: db/qa.sqlite3
+  pool: 5
+  timeout: 5000
+
+feitgn:
+  adapter: sqlite3
+  database: db/feitgn.sqlite3
+  pool: 5
+  timeout: 5000
