@@ -58,6 +58,33 @@ describe '/listings/search' do
 
   end
 
+  it "Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low"  do
+    url =  SERVICE_URL+common_part+"&price_max=1500&price_min=500&baths_min=3&sqft_min=700&sqft_max=1200&sort=sqft_high"
+    resp = HTTParty.get(url)
+    resp["returned_rows"].should >0
+    current_sqft = 99999999999
+    resp["listings"].each do |listing|
+      if !listing["community"].nil?
+        current_sqft.should >= listing["community"]["sqft_min"]
+        current_sqft =  listing["community"]["sqft_min"]
+        listing["community"]["price_min"].should >= 500
+        listing["community"]["price_max"].should <= 1500
+        listing["community"]["baths_min"].should >= 3
+        listing["community"]["sqft_max"].should <= 1200
+        listing["community"]["sqft_min"].should >= 700
+      else
+        current_sqft.should >= listing["sqft"]
+        current_sqft =  listing["sqft"]
+        listing["price"].should >= 500
+        listing["price"].should <= 1500
+        listing["baths"].should >= 3
+        listing["sqft"].should <= 1200
+        listing["sqft"].should >= 700
+      end
+    end
+
+  end
+
 
 
 end
