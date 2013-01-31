@@ -46,13 +46,13 @@ describe '/properties/search' do
     url =  SERVICE_URL+common_part+"&price_max=1500&price_min=500"
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
-    resp["listings"].each do |listing|
-      if !listing["community"].nil?
-        listing["community"]["price_min"].should >= 500
-        listing["community"]["price_max"].should <= 1500
+    resp["properties"].each do |property|
+      if !property["listings"][0]["community"].nil?
+        property["listings"][0]["community"]["price_min"].should >= 500
+        property["listings"][0]["community"]["price_max"].should <= 1500
       else
-        listing["price"].should >= 500
-        listing["price"].should <= 1500
+        property["listings"][0]["price"].should >= 500
+        property["listings"][0]["price"].should <= 1500
       end
     end
 
@@ -63,23 +63,23 @@ describe '/properties/search' do
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
     current_sqft = 99999999999
-    resp["listings"].each do |listing|
-      if !listing["community"].nil?
-        current_sqft.should >= listing["community"]["sqft_min"]
-        current_sqft =  listing["community"]["sqft_min"]
-        listing["community"]["price_min"].should >= 500
-        listing["community"]["price_max"].should <= 1500
-        listing["community"]["baths_min"].should >= 3
-        listing["community"]["sqft_max"].should <= 1200
-        listing["community"]["sqft_min"].should >= 700
+    resp["properties"].each do |property|
+      if !property["listings"][0]["community"].nil?
+        current_sqft.should >= property["listings"][0]["community"]["sqft_min"]
+        current_sqft =  property["listings"][0]["community"]["sqft_min"]
+        property["listings"][0]["community"]["price_min"].should >= 500
+        property["listings"][0]["community"]["price_max"].should <= 1500
+        property["listings"][0]["community"]["baths_min"].should >= 3
+        property["listings"][0]["community"]["sqft_max"].should <= 1200
+        property["listings"][0]["community"]["sqft_min"].should >= 700
       else
-        current_sqft.should >= listing["sqft"]
-        current_sqft =  listing["sqft"]
-        listing["price"].should >= 500
-        listing["price"].should <= 1500
-        listing["baths"].should >= 3
-        listing["sqft"].should <= 1200
-        listing["sqft"].should >= 700
+        current_sqft.should >= property["listings"][0]["sqft"]
+        current_sqft =  property["listings"][0]["sqft"]
+        property["listings"][0]["price"].should >= 500
+        property["listings"][0]["price"].should <= 1500
+        property["listings"][0]["baths"].should >= 3
+        property["listings"][0]["sqft"].should <= 1200
+        property["listings"][0]["sqft"].should >= 700
       end
     end
 
@@ -91,8 +91,8 @@ describe '/properties/search' do
     url =  SERVICE_URL+common_part+"&listed_date_min=#{date_check_point}"
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
-    resp["listings"].each do |listing|
-      listing["list_date"].should >= date_check_point
+    resp["properties"].each do |property|
+      property["listings"][0]["list_date"].should >= date_check_point
     end
 
   end
