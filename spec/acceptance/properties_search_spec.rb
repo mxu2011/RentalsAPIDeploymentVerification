@@ -35,8 +35,15 @@ describe '/properties/search' do
     resp["returned_rows"].should >0
   end
 
-  it "Request all rental listings on McDowell Rd in Avondale, AZ"  do
-    url =  SERVICE_URL+common_part+"&address=\"McDowell Rd\"&city=\"Avondale\"&state_code=\"AZ\""
+  it "Request all rental listings on a specific address"  do
+    url =  SERVICE_URL+common_part
+    resp = HTTParty.get(url)
+    resp["returned_rows"].should == 10
+    properties = resp["properties"]
+    address = URI.escape(properties[0]["listings"][0]["address"]["line"])
+    city = URI.escape(properties[0]["listings"][0]["address"]["city"])
+    state_code = URI.escape(properties[0]["listings"][0]["address"]["state_code"])
+    url =  SERVICE_URL+common_part+"&address=#{address}&city=#{city}&state_code=#{state_code}"
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
   end
