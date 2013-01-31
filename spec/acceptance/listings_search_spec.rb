@@ -36,7 +36,8 @@ describe '/listings/search' do
   end
 
   it "Request all rental listings on McDowell Rd in Avondale, AZ"  do
-    url =  SERVICE_URL+common_part+"&address=\"McDowell Rd\"&city=\"Avondale\"&state_code=\"AZ\""
+    #url =  SERVICE_URL+common_part+"&address=\"McDowell Rd\"&city=\"Avondale\"&state_code=\"AZ\""
+    url =  SERVICE_URL+common_part+"&address=\"McDowell Rd\""
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
   end

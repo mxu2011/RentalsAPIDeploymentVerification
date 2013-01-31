@@ -35,7 +35,10 @@ RentalsAPIDeploymentVerification::Application.configure do
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 
+=begin
   SERVICE_URL="http://localhost:3000/"
   SERVICE_URL="http://qamd01.api.rentals.move.com/v1"
   SERVICE_URL="http://dev.api.rentals.move.com/v1"
+=end
+  SERVICE_URL="http://feitgn.api.rentals.move.com/v1"
 end
