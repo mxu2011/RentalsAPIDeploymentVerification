@@ -55,11 +55,13 @@ describe '/listings/search' do
     resp["returned_rows"].should >0
     resp["listings"].each do |listing|
       if !listing["community"].nil?
-        listing["community"]["price_min"].should >= 500
-        listing["community"]["price_max"].should <= 1500
+        listing["community"]["price_min"].should >= 500    if !listing["community"]["price_min"].nil?
+        listing["community"]["price_max"].should <= 1500   if !listing["community"]["price_max"].nil?
       else
-        listing["price"].should >= 500
-        listing["price"].should <= 1500
+        if !listing["price"].nil?
+          listing["price"].should >= 500
+          listing["price"].should <= 1500
+        end
       end
     end
 
@@ -72,21 +74,31 @@ describe '/listings/search' do
     current_sqft = 99999999999
     resp["listings"].each do |listing|
       if !listing["community"].nil?
-        current_sqft.should >= listing["community"]["sqft_min"]
-        current_sqft =  listing["community"]["sqft_min"]
+
+        if !listing["community"]["sqft_min"].nil?
+          current_sqft.should >= listing["community"]["sqft_min"]
+          current_sqft =  listing["community"]["sqft_min"]
+          listing["community"]["sqft_min"].should >= 700
+        end
+
         listing["community"]["price_min"].should >= 500
         listing["community"]["price_max"].should <= 1500
         listing["community"]["baths_min"].should >= 3
         listing["community"]["sqft_max"].should <= 1200
-        listing["community"]["sqft_min"].should >= 700
+
       else
-        current_sqft.should >= listing["sqft"]
-        current_sqft =  listing["sqft"]
+        if !listing["sqft"].nil?
+          current_sqft.should >= listing["sqft"]
+          current_sqft =  listing["sqft"]
+          listing["sqft"].should <= 1200
+          listing["sqft"].should >= 700
+        end
+
         listing["price"].should >= 500
         listing["price"].should <= 1500
         listing["baths"].should >= 3
-        listing["sqft"].should <= 1200
-        listing["sqft"].should >= 700
+
+
       end
     end
 

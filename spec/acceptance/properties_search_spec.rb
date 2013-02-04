@@ -55,11 +55,13 @@ describe '/properties/search' do
     resp["returned_rows"].should >0
     resp["properties"].each do |property|
       if !property["listings"][0]["community"].nil?
-        property["listings"][0]["community"]["price_min"].should >= 500
-        property["listings"][0]["community"]["price_max"].should <= 1500
+        property["listings"][0]["community"]["price_min"].should >= 500 if !property["listings"][0]["community"]["price_min"].nil?
+        property["listings"][0]["community"]["price_max"].should <= 1500  if !property["listings"][0]["community"]["price_max"].nil?
       else
-        property["listings"][0]["price"].should >= 500
-        property["listings"][0]["price"].should <= 1500
+        if !property["listings"][0]["price"].nil?
+          property["listings"][0]["price"].should >= 500
+          property["listings"][0]["price"].should <= 1500
+        end
       end
     end
 
