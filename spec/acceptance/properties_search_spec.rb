@@ -42,7 +42,7 @@ describe '/properties/search' do
     properties = resp["properties"]
     address = URI.escape(properties[0]["listings"][0]["address"]["line"])
     city = URI.escape(properties[0]["listings"][0]["address"]["city"])
-    state_code = URI.escape(properties[0]["listings"][0]["address"]["state_code"])
+    state_code = URI.escape(properties[0]["listings"][0]["address"]["state_code"])  if !properties[0]["listings"][0]["address"]["state_code"].nil?
     url =  SERVICE_URL+common_part+"&address=#{address}&city=#{city}&state_code=#{state_code}"
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0

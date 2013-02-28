@@ -42,7 +42,7 @@ describe '/listings/search' do
     listing = resp["listings"][0]
     address = URI.escape(listing["address"]["line"])      if !listing["address"]["line"].nil?
     city = URI.escape(listing["address"]["city"])
-    state_code = URI.escape(listing["address"]["state_code"])
+    state_code = URI.escape(listing["address"]["state_code"])  if !listing["address"]["state_code"].nil?
     url =  SERVICE_URL+common_part+"&address=#{address}&city=#{city}&state_code=#{state_code}"
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
