@@ -41,3 +41,8 @@ gem 'rspec-rails'
 gem 'httparty'
 gem 'chronic'
 gem 'hashie'
+
+group :test do
+  gem 'ruby-prof'
+  gem 'test-unit'
+end
