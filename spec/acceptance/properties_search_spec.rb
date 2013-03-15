@@ -101,7 +101,7 @@ describe '/properties/search' do
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
     resp["properties"].each do |property|
-      property["listings"][0]["list_date"].should >= date_check_point
+      property["listings"][0]["list_date"].to_iso_8601.should >= date_check_point  if   !property["listings"][0]["list_date"].nil?
     end
 
   end

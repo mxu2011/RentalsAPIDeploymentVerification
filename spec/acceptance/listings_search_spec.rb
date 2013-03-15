@@ -111,7 +111,7 @@ describe '/listings/search' do
     resp = HTTParty.get(url)
     resp["returned_rows"].should >0
     resp["listings"].each do |listing|
-      listing["list_date"].should >= date_check_point
+      listing["list_date"].to_iso_8601.should >= date_check_point if   !listing["list_date"].nil?
     end
 
   end
