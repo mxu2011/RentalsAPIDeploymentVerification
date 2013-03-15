@@ -82,13 +82,17 @@ describe '/properties/search' do
         property["listings"][0]["community"]["sqft_max"].should <= 1200
         property["listings"][0]["community"]["sqft_min"].should >= 700
       else
-        current_sqft.should >= property["listings"][0]["sqft"]
-        current_sqft =  property["listings"][0]["sqft"]
+        if !property["listings"][0]["sqft"].nil?
+          current_sqft.should >= property["listings"][0]["sqft"]
+          current_sqft =  property["listings"][0]["sqft"]
+        end
         property["listings"][0]["price"].should >= 500
         property["listings"][0]["price"].should <= 1500
         property["listings"][0]["baths"].should >= 3
-        property["listings"][0]["sqft"].should <= 1200
-        property["listings"][0]["sqft"].should >= 700
+        if !property["listings"][0]["sqft"].nil?
+          property["listings"][0]["sqft"].should <= 1200
+          property["listings"][0]["sqft"].should >= 700
+        end
       end
     end
 
