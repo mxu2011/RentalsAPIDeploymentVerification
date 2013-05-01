@@ -116,4 +116,23 @@ describe '/listings/search' do
 
   end
 
+  it "Request all listings within a (rectangle) polygon"  do
+    total = 0
+    exceptions = 0
+    10.times do
+      url =  SERVICE_URL+common_part+"&points=(34.013743,-118.845766),(34.335579,-118.845766),(34.335579,-118.384777),(34.013743,-118.384777),(34.013743,-118.845766)&limit=300&start=#{total}"
+      resp = HTTParty.get(url)
+      resp["returned_rows"].should >0
+      total += resp["returned_rows"].to_i
+      resp["listings"].each do |listing|
+        if listing["address"]["lat"].to_f< 34.013743 ||  listing["address"]["lat"]> 34.335579 || listing["address"]["long"]< -118.845766 ||  listing["address"]["long"] > -118.384777
+          puts "outside the box: master_listing_id=#{listing['id']},lat=#{listing['address']['lat']},long=#{listing['address']['long']}"
+          exceptions += 1
+        end
+      end
+    end
+
+    puts "#{exceptions} out of #{total} is out of the box"
+  end
+
 end

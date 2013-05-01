@@ -39,6 +39,7 @@ RentalsAPIDeploymentVerification::Application.configure do
   SERVICE_URL="http://localhost:3000/"
   SERVICE_URL="http://qamd01.api.rentals.move.com/v1"
   SERVICE_URL="http://dev.api.rentals.move.com/v1"
-=end
   SERVICE_URL="http://api.rentals.move.com/v1"
+=end
+  SERVICE_URL="http://feitgn.api.rentals.move.com/v1"
 end
