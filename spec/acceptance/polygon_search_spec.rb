@@ -10,10 +10,14 @@ describe ' polygonsearch' do
       begin
         url= SERVICE_URL + JSON.parse(line)["result"]["http_request"].scan( /GET \/v1\/.+points.+HTTP/)[0].gsub("GET \/v1",'').gsub("HTTP",'')
         resp = HTTParty.get(url)
-        resp.should_not nil
+
+        if !resp.instance_of?(Hash)
+          puts "Nice ERROR----##{count}:#{line}\n"
+          err_count += 1
+        end
 
         rescue
-        puts "ERROR----##{count}:#{line}\n"
+        puts "Exception ERROR----##{count}:#{line}\n"
         err_count += 1
       end
       count +=1
