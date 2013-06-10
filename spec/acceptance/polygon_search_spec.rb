@@ -22,11 +22,21 @@ describe ' polygonsearch' do
       end
       count +=1
       puts "#{err_count} out of #{count} failed"
+
     end
-
-
 
   end
 
+
+  it "Should get correct count of lines "  do
+
+    count = 0
+    File.open("#{Rails.root}/spec/fixtures/polygon_prod_errors.json").each_line do |line|
+      count +=1
+    end
+
+    puts "total lines is #{count}"
+
+  end
 
 end
