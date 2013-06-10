@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../RentalsAPI/test/performance/listings_search_test.rb" description="    .to_return(:status =&gt; 200, :body =&gt; @simple_so..." line="13" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="35bd406b-d919-4eed-833f-79d7f07e25bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb" afterPath="$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RentalsAPIDeploymentVerification.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1367356373455" ignored="false" />
-    <file path="/test.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1367356413840" ignored="false" />
+    <file path="/Dummy.txt" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1370850593204" ignored="false" />
+    <file path="/test.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1370849094918" ignored="false" />
     <file path="/listings_search_spec.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1367358399392" ignored="false" />
     <file path="/properties_search_spec.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1363377176805" ignored="false" />
-    <file path="/a.dummy" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1367356631074" ignored="false" />
-    <file path="/fragment.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1367357343270" ignored="false" />
+    <file path="/a.dummy" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1370849586100" ignored="false" />
+    <file path="/fragment.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1370852615731" ignored="false" />
+    <file path="/polygon_search_spec.rb" changelist="35bd406b-d919-4eed-833f-79d7f07e25bf" time="1370852710805" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +30,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="listings_search_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="listings_search_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="4149" selection-end="4149" vertical-scroll-proportion="0.62472886">
+            <state line="9" column="14" selection-start="240" selection-end="244" vertical-scroll-proportion="-6.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polygon_search_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/acceptance/polygon_search_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.33888888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rails.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/railties-3.2.11/lib/rails.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +87,7 @@
       <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="56" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+            <state line="37" column="162" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,41 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browsing_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/performance/browsing_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listings_search_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/performance/listings_search_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="property_show_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/performance/property_show_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1362690398205" expanded="true" signature="85:489" placeholder=" ... end" />
-                <marker date="1362690398205" expanded="true" signature="122:332" placeholder="#..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +143,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/performance/property_show_test.rb" />
         <option value="$PROJECT_DIR$/spec/acceptance/properties_search_spec.rb" />
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/spec/acceptance/polygon_search_spec.rb" />
       </list>
     </option>
   </component>
@@ -170,10 +157,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
-    <option name="height" value="1062" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,6 +188,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -258,11 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,6 +261,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,7 +320,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,13 +335,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\platformGit\RentalsAPIDeploymentVerification\spec\acceptance" />
       <recent name="V:\platformGit\RentalsAPIDeploymentVerification\test\performance" />
       <recent name="V:\platformGit\RentalsAPIDeploymentVerification\config\initializers" />
-      <recent name="V:\platformGit\RentalsAPIDeploymentVerification\spec\acceptance" />
       <recent name="V:\platformGit\RentalsAPIDeploymentVerification\config\environments" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\platformGit\RentalsAPIDeploymentVerification\spec\fixtures" />
+    </key>
   </component>
-  <component name="RunManager" selected="RSpec./listings/search Request all listings within a (rectangle) polygon">
+  <component name="RunManager" selected="RSpec. polygonsearch Should not return 500 error ">
     <configuration default="false" name="All specs in: spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="RentalsAPIDeploymentVerification" />
@@ -377,37 +367,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="/listings/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="RentalsAPIDeploymentVerification" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="/listings/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -512,6 +471,37 @@
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name=" polygonsearch Should not return 500 error " type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="RentalsAPIDeploymentVerification" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/acceptance/polygon_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE=" polygonsearch Should not return 500 error " />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -750,18 +740,18 @@
       <item index="3" class="java.lang.String" itemvalue="Rake.test" />
       <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="5" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec./listings/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec./properties/search Request all listings with a listed date not older than 14 days" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec./properties/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
-      <item index="9" class="java.lang.String" itemvalue="RSpec./listings/search Request all listings within a (rectangle) polygon" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec./properties/search Request all listings with a listed date not older than 14 days" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec./properties/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec./listings/search Request all listings within a (rectangle) polygon" />
+      <item index="9" class="java.lang.String" itemvalue="RSpec. polygonsearch Should not return 500 error " />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec./listings/search Request all listings within a (rectangle) polygon" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec. polygonsearch Should not return 500 error " />
         <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec./properties/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec./properties/search Request all listings with a listed date not older than 14 days" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec./listings/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec./listings/search Request all listings within a (rectangle) polygon" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec./properties/search Request all rental listings between $500 and $1500 rental price with 3 or more bathrooms and between 700 and 1200 square feet. Sort by square footage high to low" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec./properties/search Request all listings with a listed date not older than 14 days" />
       </list>
     </recent_temporary>
   </component>
@@ -813,23 +803,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1696" height="1062" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17992656" sideWeight="0.5399568" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35529158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21970624" sideWeight="0.43370786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5662921" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4600432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28064516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2955056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -926,27 +916,10 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="1153" selection-end="1154" vertical-scroll-proportion="0.040189125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="868" selection-end="872" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/performance/ListingsSearchTest#test_listings_search_memory_flat.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="68" selection-start="10111" selection-end="10115" vertical-scroll-proportion="0.87976193" />
@@ -959,17 +932,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/performance/browsing_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/performance/property_show_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1362690398205" expanded="true" signature="85:489" placeholder=" ... end" />
-            <marker date="1362690398205" expanded="true" signature="122:332" placeholder="#..." />
+            <marker date="1362690398205" expanded="true" signature="-1:-1" placeholder=" ... end" />
+            <marker date="1362690398205" expanded="true" signature="-1:-1" placeholder="#..." />
           </folding>
         </state>
       </provider>
@@ -995,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/rspec-core-2.12.2/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/string.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
@@ -1016,6 +980,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/fixtures/polygon_prod_errors.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="162" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/railties-3.2.11/lib/rails.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/rspec-core-2.12.2/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.33236152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/acceptance/properties_search_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="35" selection-start="3919" selection-end="3919" vertical-scroll-proportion="0.0">
@@ -1023,16 +1013,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="56" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+        <state line="9" column="14" selection-start="240" selection-end="244" vertical-scroll-proportion="-6.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/acceptance/listings_search_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/polygon_search_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="4149" selection-end="4149" vertical-scroll-proportion="0.62472886">
+        <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.33888888">
           <folding />
         </state>
       </provider>
